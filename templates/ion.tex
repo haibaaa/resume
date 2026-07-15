@@ -1,0 +1,91 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{geometry}
+
+\geometry{margin=1cm}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+\centerline{\Huge \bfseries Samarth Patel}
+\centerline{+91-88005-76791 \quad | \quad \href{mailto:9700samarth@gmail.com}{9700samarth@gmail.com}}
+\centerline{\href{https://github.com/haibaaa}{github.com/haibaaa} \quad | \quad \href{https://leetcode.com/u/haibaaa}{leetcode.com/u/haibaaa}}
+
+%---------------------- EDUCATION ----------------------%
+\section*{Education}
+\vspace{-6pt}
+\textbf{Shiv Nadar Institute of Eminence}, Dadri, UP \hfill 2023 -- 2027 \\
+B.Tech in Computer Science \hfill CGPA: 8.3 \\
+
+%---------------------- EXPERIENCE ----------------------%
+\section*{Experience}
+\vspace{-6pt}
+
+\textbf{IT Systems and Automation Analyst Intern} \hfill May 2025 -- Jul 2025 \\
+Kyndryl, [Location], India
+
+\begin{itemize}[noitemsep, topsep=1pt]
+    \item Automated Windows OS deployment across 100+ enterprise devices using autounattend.xml with cmd and VBScript, orchestrating a 7-phase unattended installation pipeline.
+    \item Developed bash scripts for performing ATA Secure Erase on cascaded devices, ensuring compliance with organizational data sanitization standards.
+    \item Streamlined device onboarding by automating installation of regulatory and enterprise software, reducing manual setup effort for the asset management team.
+    \item Resolved hardware and software configuration issues during provisioning, supporting end-user device readiness and onboarding workflows.
+\end{itemize}
+
+\par\noindent
+\textbf{Software Engineering Intern (Backend)} \hfill Jun 2025 -- Jul 2025 \\
+Engineers India Ltd., New Delhi, India
+
+%---------------------- PROJECTS ----------------------%
+\section*{Projects}
+\vspace{-6pt}
+
+\textbf{0Trace (SIH Hackathon Project)} \hfill 2025 \\
+Go, Bash, Nix
+
+\begin{itemize}[noitemsep, topsep=1pt]
+    \item Built a bootable ISO for secure disk wiping compliant with NIST SP 800-88 Purge standards.
+    \item Implemented backend logic in Go for disk detection and wipe orchestration.
+    \item Integrated NVMe Sanitize, ATA Secure Erase, and AES-256 overwrite fallback mechanisms.
+    \item Generated tamper-resistant wipe certificates in JSON and PDF formats with SHA-256 verification.
+    \item Packaged a fully reproducible system using Nix for auditability.
+    \item \href{https://github.com/spuckhafte/0trace}{GitHub Repository}
+\end{itemize}
+
+\par\noindent
+\textbf{Lisa – Remote Configuration Service} \hfill 2025 \\
+Python, Flask, REST APIs
+
+\begin{itemize}[noitemsep, topsep=1pt]
+    \item Built a lightweight remote configuration and feature flag service enabling applications to change behavior at runtime without redeployment.
+    \item Designed a Flask backend exposing public read-only APIs for client applications and private write APIs for operators.
+    \item Implemented project-scoped configuration namespaces with key–value configuration entries and strict API key based access control.
+    \item Developed a CLI workflow (Mona) supporting YAML-based configuration synchronization with the remote service.
+    \item \href{https://github.com/haibaaa/lisa}{GitHub Repository}
+\end{itemize}
+
+\par\noindent
+\textbf{TCCS – Software Engineering Project} \hfill 2025 \\
+Java, Javalin, jOOQ, PostgreSQL
+
+\begin{itemize}[noitemsep, topsep=1pt]
+    \item Built a backend web application using Java with Javalin and jOOQ for type-safe database access.
+    \item Designed and managed PostgreSQL database schemas with automated code generation via jOOQ.
+    \item Implemented RESTful API endpoints for application data management and business logic.
+    \item \href{https://github.com/haibaaa/tccs}{GitHub Repository}
+\end{itemize}
+
+%---------------------- SKILLS ----------------------%
+\section*{Technical Skills}
+\vspace{-6pt}
+
+\textbf{Languages:} Java, C, C++, Go, Python, TypeScript, Zig, Assembly (ARM, i8086) \\
+\textbf{Backend \& Databases:} Node.js, Next.js (API routes), Javalin, PostgreSQL, MySQL, SQLite \\
+\textbf{Cloud (AWS):} EC2, S3, Lambda, IAM, VPC \\
+\textbf{Auth \& Infra:} NextAuth, Docker, NGINX, Linux \\
+\textbf{Tools:} Git, Nix, Bash \\
+\textbf{LeetCode:} 280+ problems across C++, C, and Rust \\
+\end{document}
